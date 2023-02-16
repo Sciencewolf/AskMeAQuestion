@@ -4,9 +4,28 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="img/icons8-asking-96.png">
+
+    <script type="text/javascript" src="main.js"></script>
     <title>Ask Me A Question</title>
 </head>
-<body>
-    <h1>Ask Me A Question</h1>
+<body onload="onLoad()">
+    <main class="main-wrapper">
+        <div class="header">
+            <h1>Ask Me A Question</h1>
+        </div>
+
+        <div class="input">
+            <input type="text" placeholder="Type something">
+        </div>
+    </main>
+
+    <hr>
+    <footer class="footer">
+        <span>2023 - <span id="year-footer"></span></span>
+    </footer>
+    
 </body>
 </html>
