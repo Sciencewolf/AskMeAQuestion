@@ -53,4 +53,9 @@ body {
     justify-content: center;
     align-items: center;
     height: auto;
+    background-color: aqua;
+    position: absolute;
+    bottom: 1em;
+    left: 50%;
+    transform: translateX(-50%);
 }
