@@ -6,6 +6,17 @@
     }
 }
 
+@media (hover: hover) {
+    .send_button button:hover {
+        cursor: pointer;
+        transform: translateZ(1.1);
+        transform: scale(1.1);
+        backface-visibility: hidden;
+        -webkit-font-smoothing: subpixel-antialiased;
+        filter: blur(.0px)
+    }
+}
+
 * {
     box-sizing: border-box;
     font-family: 'Julee', monospace;
@@ -46,6 +57,25 @@ body {
     width: 70vw;
     height: 2.5em;
     text-align: center;
+}
+
+.send_button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+.send_button button {
+    width: 5em;
+    height: 2em;
+    background-color: cyan;
+    border: 1px solid black;
+    border-radius: 10px;
+    transform: scale(1);
+    transition: .4s all;
+    filter: blur(.0px)
+
 }
 
 .footer {
