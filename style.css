@@ -82,10 +82,11 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    width: auto;
     height: auto;
     background-color: aqua;
     position: absolute;
-    bottom: 1em;
+    bottom: 5em;
     left: 50%;
     transform: translateX(-50%);
 }
